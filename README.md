@@ -4,9 +4,17 @@
 No | Nama Soal | Platform | Attack | CVE? | Note
 --- | --- | --- | --- | --- | ---
 1 | Zygot-PHP-1 | Web | LFI | - | its baby
+2 | Web-File | Web | ??? | - | basic :V
 ### 1. Zygot-PHP-1
 A simple Local File Inclusion :D. Probably too simple :v
 ```
 Description:
 Dr Can you find the flag?
+```
+
+### 2. Web-File
+Simpel, cuman ngmabil flag yang scattered :v
+```
+Description:
+Can you find the creds accross the web? then probably somehow, the flag is located in the default folder of web hosting :nerd:
 ```
