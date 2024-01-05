@@ -27,7 +27,7 @@ COPY ./src/PART-3-password.txt /var/www/html/
 COPY ./src/nginx.conf /var/www/html/
 COPY ./src/robots.txt /var/www/html/
 
-COPY flag.txt /var/www/html/awikwokawokaokdasniaduasi12213.txt
+COPY ./flag.txt /var/www/html/awikwokawokaokdasniaduasi12213.txt
 
 EXPOSE 80 22
 
