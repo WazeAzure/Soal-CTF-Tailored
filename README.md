@@ -3,12 +3,12 @@
 ## Daftar Soal
 No | Nama Soal | Platform | Attack | CVE? | Note
 --- | --- | --- | --- | --- | ---
-1 | [Zygot-PHP-1](#zygot-php-1) | Web | LFI | - | its baby
-2 | [Web-File](#web-file) | Web | ??? | - | basic :V
-3 | [Hide-Me-Part-1](#hide-me-part-1) | 4n6 | - | - | - | -
-4 | [Infinite-Zip](#infinite-zip) | 4n6 | - | - | - | -
-5 | [Hello-Blockchain](#hello-blockchain) | blc | - | - | sepolia
-6 | [Magic-Bytes-Blockchain](#magic-bytes-blockchain) | blc | - | - | sepolia
+1 | [Zygot-PHP-1](#1-zygot-php-1) | Web | LFI | - | its baby
+2 | [Web-File](#w2-eb-file) | Web | ??? | - | basic :V
+3 | [Hide-Me-Part-1](#3-hide-me-part-1) | 4n6 | - | - | - | -
+4 | [Infinite-Zip](#4-infinite-zip) | 4n6 | - | - | - | -
+5 | [Hello-Blockchain](#5-hello-blockchain) | blc | - | - | sepolia
+6 | [Magic-Bytes-Blockchain](#6-magic-bytes-blockchain) | blc | - | - | sepolia
 ----
 
 # 1. Zygot-PHP-1
