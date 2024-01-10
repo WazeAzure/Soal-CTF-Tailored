@@ -9,6 +9,7 @@ No | Nama Soal | Platform | Attack | CVE? | Note
 4 | [Infinite-Zip](#4-infinite-zip) | 4n6 | - | - | - | -
 5 | [Hello-Blockchain](#5-hello-blockchain) | blc | - | - | sepolia
 6 | [Magic-Bytes-Blockchain](#6-magic-bytes-blockchain) | blc | - | - | sepolia
+7 | [PhishHunt](#7-phishhunt) | 4n6 | - | - | adopted from hacktrace
 ----
 
 # 1. Zygot-PHP-1
@@ -57,3 +58,40 @@ Wrap it inside CTFITB{...} (e.g CTFITB{nama_fungsi_flag})
 
 contract address: 0x62D4f0C9595f4439499F256AbE69974453898DB6
 ```
+# 7. PhishHunt
+email forensic
+```
+Description:
+Pada hari Senin Ibu pergi ke kantor. Di kantor Ibu ketemu flash drive* tergeletak di meja kerjanya. Seingatnya flash drive tersebut merupakan milik temannya. Teman Ibu meminta bantuan untuk memeriksa apakah email yang ia dapatkan merupakan transaksi keuangan yang valid atau penipuan. Sayangnya, teman ibu lupa password dari file tersebut.
+
+Cerita ini memang ga nyambung, jadi yasudahlah ya.
+Bantulah Ibu mencapai tujuannya HORE :D
+
+* namanya flashdrive, bukan flashdisk :(
+* HATI-HATI ADA VIRUS BENERAN. JANGAN DIRUNNING SEMBARANGAN
+
+nc x.x.x.x xx
+```
+**PART 1**
+1. Apa email pengirim?
+alvawensz@hlsholding.com.cn
+2. Apa email penerima?
+admin@starlucktech.com
+3. Alamat IP pengirim?
+185.225.74.18
+4. Berasal dari negara mana IP pengirim?
+Netherlands / Belanda (translate ke indo)
+5. Apa nama file lampiran pada email?
+BANK DETAILS.pdf.zip
+
+**PART 2**
+1. Apa nilai md5 dari file lampiran?
+f667f7c0f470a550b6cfbce4236b3be4
+2. Apa nama file didalam file lampiran?
+PO.pdf.exe
+3. Apa nama asli file tersebut?
+ZySG.exe
+3. Malware jenis apa file tersebut?
+Trojan
+4. Apa nama domain yang berkomunikasi dengan malware?
+api.ipify.org,api4.ipify.org
