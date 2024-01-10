@@ -61,13 +61,23 @@ contract address: 0x62D4f0C9595f4439499F256AbE69974453898DB6
 # 7. PhishHunt
 email forensic
 ```
-Description:
+Description PART 1:
 Pada hari Senin Ibu pergi ke kantor. Di kantor Ibu ketemu flash drive* tergeletak di meja kerjanya. Seingatnya flash drive tersebut merupakan milik temannya. Teman Ibu meminta bantuan untuk memeriksa apakah email yang ia dapatkan merupakan transaksi keuangan yang valid atau penipuan. Sayangnya, teman ibu lupa password dari file tersebut.
 
 Cerita ini memang ga nyambung, jadi yasudahlah ya.
 Bantulah Ibu mencapai tujuannya HORE :D
 
 * namanya flashdrive, bukan flashdisk :(
+* HATI-HATI ADA VIRUS BENERAN. JANGAN DIRUNNING SEMBARANGAN
+
+nc x.x.x.x xx
+============================================================================
+Description PART 2:
+Yey kamu berhasil membantu ibu untuk bagian pertama. SEKARANG BAGIAN KE 2.
+Gutlak.
+
+May the force be with you.
+
 * HATI-HATI ADA VIRUS BENERAN. JANGAN DIRUNNING SEMBARANGAN
 
 nc x.x.x.x xx
