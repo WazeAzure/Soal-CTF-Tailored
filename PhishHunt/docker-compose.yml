@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  phishhunt:
+    container_name: phishhunt
+    restart: always
+    build: .
+    ports:
+      - '8004:1337'
+      - '8005:1338'
