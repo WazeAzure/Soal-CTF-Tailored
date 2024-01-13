@@ -48,7 +48,7 @@ def main():
             return
     
     if correct_answers == len(questions):
-        print("\nCongrats! Flag: CTFITB{r34L_F0r&6_M4$T3r_P4rT1}")
+        print("\nCongrats! Flag: CTFITB24{r34L_F0r&6_M4$T3r_P4rT1}")
 
 if __name__ == "__main__":
     main()
