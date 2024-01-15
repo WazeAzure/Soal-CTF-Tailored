@@ -5,5 +5,5 @@ services:
     restart: always
     build: .
     ports:
-      - '8004:1337'
-      - '8005:1338'
+      - '8014:1337'
+      - '8015:1338'
